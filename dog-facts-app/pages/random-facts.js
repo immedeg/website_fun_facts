@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
         try {
             container.innerHTML = '<p>Загрузка...</p>';
             
-            const response = await fetch('https://uselessfacts.jsph.pl/random.json?language=en');
+            const response = await fetch('https://uselessfacts.jsph.pl/api/v2/facts/random?language=en');
             
             if (!response.ok) {
                 throw new Error('Ошибка загрузки факта');
