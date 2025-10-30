@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'TextFont';
-  src: url('/dog-facts-app/src/fonts/Cruinn\ Medium.ttf') format('opentype');
+  src: url('/dog-facts-app/styles/fonts/Cruinn\ Medium.ttf') format('opentype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
