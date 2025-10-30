@@ -1,10 +1,9 @@
 .btn {
-    /* background: #3498db; */
-    background: red;
+    background: #3498db;
     color: white;
     border: none;
-    /* padding: 12px 24px; */
-    padding: 12px 200px;
+    padding: 12px 24px;
+    /* padding: 12px 200px; */
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
