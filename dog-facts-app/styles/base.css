@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'TextFont';
+  src: url('/dog-facts-app/src/fonts/Cruinn\ Medium.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +13,9 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Textfont', sans-serif;
+    /* font-style: italic; */
+    /* color:red; */
     line-height: 1.6;
     color: #333;
     background-color: #f4f4f4;
