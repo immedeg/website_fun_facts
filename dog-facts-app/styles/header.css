@@ -25,10 +25,18 @@ header h1 {
 
 nav ul {
     list-style: none;
-    display: flex;
+    display: flex; /* Меняем на flex */
     justify-content: center;
     gap: 2rem;
     flex-wrap: wrap;
+    padding: 0; /* Добавляем сброс отступов */
+    margin: 0; /* Добавляем сброс внешних отступов */
+}
+
+nav li {
+    /* Обеспечиваем правильное отображение элементов списка */
+    display: flex;
+    margin: auto;
 }
 
 nav a {
@@ -38,6 +46,7 @@ nav a {
     border-radius: 4px;
     transition: all 0.3s ease;
     border: 1px solid transparent;
+    display: inline-block; /* Для корректной работы трансформаций */
 }
 
 nav a:hover {
